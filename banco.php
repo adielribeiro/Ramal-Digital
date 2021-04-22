@@ -1,8 +1,8 @@
 <?php
 
 $bdServidor	=	'127.0.0.1';
-$bdUsuario	=	'root';
-$bdSenha	=	'20072008';
+$bdUsuario	=	'root'; //seu usuário
+$bdSenha	=	'senha'; // sua senha
 $bdBanco	=	'dbramal';
 $conexao	=	mysqli_connect($bdServidor,	$bdUsuario,	$bdSenha, $bdBanco);
 mysqli_set_charset( $conexao, 'utf8');
