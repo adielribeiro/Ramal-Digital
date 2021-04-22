@@ -1,0 +1,124 @@
+	
+body, input, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+   	padding-top :5px;
+}
+
+.img-cont{
+
+  max-width: auto;
+  height: 115px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background: #4eaa6d;
+  padding: 15px;
+  padding-bottom: 0;
+  border-radius: 10px;
+  justify-content:left;
+}
+
+  .imagem {
+
+  width: 100%; /* Faz DIV ocupar todo o espaço da sua DIV pai*/
+  height: auto;/* Ajusta o tamanho da DIV proporcionalmente */ 
+  display: grid; /* Transforma sua DIV em um grid */
+  justify-content:left;  /* Faz o alinhamento horizontal dos seus elementos no centro */
+}
+
+
+
+.imagem img{
+	
+	height:auto; /* Ajusta o tamanho da imagem dentro da DIV proporcionalmente */ 
+}
+
+
+.setor{
+	
+	white-space: nowrap;
+	width:100px;
+}
+
+#ramais{
+	
+  width:870px; 
+  align-items: center;
+	border-radius: 5px;
+	margin: 5 border-bottom;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background: #fff;
+  padding-top: 10px; 
+	padding-bottom:5px;
+
+}
+
+#ramais tr{
+	
+  line-height:30px;
+	text-align:center;
+	white-space:nowrap;
+	
+	
+}
+
+
+#ramais tr:hover{
+	
+    background:#4eaa6d;
+    color:#FFF;
+}
+
+#ramais thread{
+	
+  color:#FFF;
+  font-weight:bold;
+	white-space: nowrap;
+}
+
+#ramais thread:hover{
+	
+    color:#FFF;
+    font-weight:bold;
+}
+
+.link{
+	
+	color: #191905;
+}
+
+.link:hover{
+	
+	color: #FFF;
+}
+
+
+.rodape{
+  max-width: auto;
+  height: 120px;
+  background: #4eaa6d;
+  padding: 15px;
+  border:1px;
+  border-radius: 10px;
+  margin: 10 border-bottom;
+  justify-content:left;
+}
+
+.rodape p{
+	
+	color: rgb(250, 250, 250);
+	font-size: 14;
+
+}
+
+
+.botao {
+	
+	font-size: 1.1em;
+	border: 1;
+	padding: 0.2em 0.6em;
+}
+.botao:hover{
+	
+	 background: #4eaa6d;
+	 color:#fff;
+}
