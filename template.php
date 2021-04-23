@@ -39,7 +39,7 @@
             <div class="container">
                     <ul class="nav nav-tabs justify-content-center">
                       <li class="nav-item bg-danger" >
-                          <a style="color:#FFF" class="nav-link" href="ramal.php" target="_blank">HOME</a>
+                          <a style="color:#FFF" class="nav-link" href="index.php">HOME</a>
                       </li>
                       <li class="nav-item" style="background-color: #4eaa6d;">
                           <a style="color:#FFF " class="nav-link" href="#" target="_blank" >MENU 1</a>
